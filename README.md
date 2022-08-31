@@ -44,3 +44,18 @@ When you tap proceed again, you are taken to the Checkout page where you can tap
 <p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/5.jpg" width="600"></p>
 
 <br>
+
+
+<h3>Some other Features</h3>
+
+Bloc is used for State management
+
+The app is separated into 3 layers: Presentation, Logic and Data
+
+Flutter Toast is implmeted to give user feedback on action such as Adding to Cart or Placing an Order.
+
+Hive is used to store profile details locally.
+
+Reorder items is implemented so that user can place the same order without having to add address and other details again.
+
+Image Caching is used so that the smae images don't have to be downloaded again.
