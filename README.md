@@ -46,7 +46,7 @@ When you tap proceed again, you are taken to the Checkout page where you can tap
 <br>
 
 
-<h3>Some other Features</h3>
+<h3>Some other features</h3>
 
 Bloc is used for State management
 
@@ -59,3 +59,5 @@ Hive is used to store profile details locally.
 Reorder items is implemented so that user can place the same order without having to add address and other details again.
 
 Image Caching is used so that the smae images don't have to be downloaded again.
+
+Different colors are used for Order Status, along with Order Tracking.
