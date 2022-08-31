@@ -32,6 +32,14 @@ You are given an option to add the product to Cart or Buy Now.
 
 <br>
 
+When you go to the Cart, you can see a List of your CartItems.
+
+When you tap to proceed, you are asked to enter your address.
+
+When you tap proceed again, you are given an option for instant or scheduled delivery. You can select a date using CupertinoDatePicker.
+
+When you tap proceed again, you are taken to the Checkout page where you can tap Confirm Order to place the order.
+
 <p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/4.jpg" width="600"></p>
 <p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/5.jpg" width="600"></p>
 
