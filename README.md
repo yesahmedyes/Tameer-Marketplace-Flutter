@@ -2,11 +2,15 @@
 
 <br>
 
-<h4>I built a app for construction materials marketplace. Everything from design and implmentation was done by me. I tried to focus on two things:</h4>
-<h4>Good App performace - For this I have implemented concepts such as a debouncer and premtive deletion</h4>
-<h4>Good User performace - I built the app iteratively to make sure the design and screen flows are very intutive. My research showed that most of the cusomter base prefers Roman Urdu over nomral Urdu or Engligh. For this reason, I tried to user Roman Urdu everywhere.</h4>
+<h4>I built a app for construction materials marketplace. Everything from design and implementation was done by me. I tried to focus on two things:</h4>
+
+Good app performace - For this I have implemented concepts such as a debouncer and preemptive deletion
+
+Good user experience - I built the app iteratively to make sure the design and screen flows are very intuitive. My research showed that most of the cusomter base prefers Roman Urdu over nomral Urdu or Engligh. For this reason, I tried to user Roman Urdu everywhere in the app.
 
 <br>
+
+<h5>User Authentication</h5>
 
 The app starts with a Get Started page, followed by user authentication using Firebase.
 
@@ -15,6 +19,8 @@ The wave patterns in the background are made using CustomPainter.
 <p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/1.jpg" width="600"></p>
 
 <br>
+
+<h5>Main Screen</h5>
 
 The main screen consists of a App Bar that shows a Menu icon and a Cart Icon, a Bottom Navigation for Home and Orders.
 
@@ -25,6 +31,8 @@ The two switch between each other using PageView.
 <p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/2.jpg" width="600"></p>
 
 <br>
+
+<h5>Products</h5>
 
 Once you tap on a Category, you are offered with a GridView of Products for that Category.
 
@@ -37,6 +45,8 @@ You are given an option to add the product to Cart or Buy Now.
 <p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/3.jpg" width="600"></p>
 
 <br>
+
+<h5>Cart</h5>
 
 When you go to the Cart, you can see a List of your CartItems.
 
