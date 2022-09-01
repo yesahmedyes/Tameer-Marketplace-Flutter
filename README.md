@@ -2,6 +2,12 @@
 
 <br>
 
+<h4>I built a app for construction materials marketplace. Everything from design and implmentation was done by me. I tried to focus on two things:</h4>
+<h4>Good App performace - For this I have implemented concepts such as a debouncer and premtive deletion</h4>
+<h4>Good User performace - I built the app iteratively to make sure the design and screen flows are very intutive. My research showed that most of the cusomter base prefers Roman Urdu over nomral Urdu or Engligh. For this reason, I tried to user Roman Urdu everywhere.</h4>
+
+<br>
+
 The app starts with a Get Started page, followed by user authentication using Firebase.
 
 The wave patterns in the background are made using CustomPainter.
