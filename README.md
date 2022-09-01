@@ -61,7 +61,6 @@ When you tap proceed again, you are taken to the Checkout page where you can tap
 
 <br>
 
-
 <h4>Some other features</h4>
 
 Bloc is used for State management
@@ -78,5 +77,6 @@ Image Caching is used so that the smae images don't have to be downloaded again.
 
 Different colors are used for Order Status, along with Order Tracking.
 
+<br>
 
 <h4>To see a screen recording of the app: </h4> <a href="https://drive.google.com/file/d/1ZF6XRPTQzp7JsKW4nZtSyk7W-2w3gCbf/view?usp=sharing" target="_blank">https://drive.google.com/file/d/1ZF6XRPTQzp7JsKW4nZtSyk7W-2w3gCbf/view?usp=sharing</a>
