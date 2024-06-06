@@ -16,7 +16,7 @@ The app starts with a Get Started page, followed by user authentication using Fi
 
 The wave patterns in the background are made using CustomPainter.
 
-<p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/1.jpg" width="600"></p>
+<p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/1.jpg" width="100%"></p>
 
 <br>
 
@@ -28,7 +28,7 @@ Home consists of different categories of products and Orders consists of a List 
 
 The two switch between each other using PageView.
 
-<p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/2.jpg" width="600"></p>
+<p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/2.jpg" width="100%"></p>
 
 <br>
 
@@ -42,7 +42,7 @@ You can see the product description in the form of a full screen Dialog.
 
 You are given an option to add the product to Cart or Buy Now.
 
-<p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/3.jpg" width="600"></p>
+<p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/3.jpg" width="100%"></p>
 
 <br>
 
@@ -56,8 +56,8 @@ When you tap proceed again, you are given an option for instant or scheduled del
 
 When you tap proceed again, you are taken to the Checkout page where you can tap Confirm Order to place the order.
 
-<p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/4.jpg" width="600"></p>
-<p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/5.jpg" width="600"></p>
+<p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/4.jpg" width="100%"></p>
+<p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/5.jpg" width="100%"></p>
 
 <br>
 
