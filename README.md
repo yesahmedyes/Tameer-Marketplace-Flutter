@@ -4,10 +4,6 @@
 
 <h4>I built an app for construction materials marketplace. Everything from design and implementation was done by me. I tried to focus on two things:</h4>
 
-Good app performace - For this I have implemented concepts such as a debouncer and preemptive deletion
-
-Good user experience - I built the app iteratively to make sure the design and screen flows are very intuitive. My research showed that most of the cusomter base prefers Roman Urdu over nomral Urdu or Engligh. For this reason, I tried to user Roman Urdu everywhere in the app.
-
 <br>
 
 <h4>User Authentication</h4>
@@ -73,10 +69,6 @@ Hive is used to store profile details locally.
 
 Reorder items is implemented so that user can place the same order without having to add address and other details again.
 
-Image Caching is used so that the smae images don't have to be downloaded again.
+Image Caching is used so that the same images don't have to be downloaded again.
 
-Different colors are used for Order Status, along with Order Tracking.
-
-<br>
-
-<h4>To see a screen recording of the app: </h4> <a href="https://drive.google.com/file/d/1ZF6XRPTQzp7JsKW4nZtSyk7W-2w3gCbf/view?usp=sharing" target="_blank">https://drive.google.com/file/d/1ZF6XRPTQzp7JsKW4nZtSyk7W-2w3gCbf/view?usp=sharing</a>
+Different colors are used for various Order Statuses, along with Order Tracking.
