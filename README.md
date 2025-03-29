@@ -1,74 +1,85 @@
-# Tameer
+# Tameer - Construction Materials Marketplace
 
-<br>
+A comprehensive mobile marketplace for construction materials built with Flutter, featuring a clean UI and robust functionality.
 
-<h4>I built an app for construction materials marketplace. Everything from design and implementation was done by me. I tried to focus on two things:</h4>
+<div align="center">
+  <img src="./demo/1.jpg" width="100%">
+</div>
 
-<br>
+## Features
 
-<h4>User Authentication</h4>
+### User Authentication
 
-The app starts with a Get Started page, followed by user authentication using Firebase.
+- Secure user authentication powered by Firebase
+- Beautifully designed login and signup screens with custom wave patterns
+- User profile management
 
-The wave patterns in the background are made using CustomPainter.
+### Product Shopping Experience
 
-<p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/1.jpg" width="100%"></p>
+- Categorized construction materials browsing
+- Detailed product pages with comprehensive information
+- Add to cart functionality with quantity management
+- Buy now option for immediate purchase
 
-<br>
+### Order Management
 
-<h4>Main Screen</h4>
+- Complete order history tracking
+- Various order status indications with color coding
+- Order reordering capability for repeat purchases
 
-The main screen consists of a App Bar that shows a Menu icon and a Cart Icon, a Bottom Navigation for Home and Orders.
+### Cart & Checkout Process
 
-Home consists of different categories of products and Orders consists of a List of history of orders.
+- Real-time cart management
+- Address input and storage
+- Flexible delivery options including scheduled deliveries
+- Streamlined checkout process
 
-The two switch between each other using PageView.
+<div align="center">
+  <img src="./demo/2.jpg" width="100%">
+  <p><em>Home Screen with Categories</em></p>
+</div>
 
-<p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/2.jpg" width="100%"></p>
+<div align="center">
+  <img src="./demo/3.jpg" width="100%">
+  <p><em>Product Detail and Description</em></p>
+</div>
 
-<br>
+<div align="center">
+  <img src="./demo/4.jpg" width="100%">
+  <p><em>Cart Management and Address Input</em></p>
+</div>
 
-<h4>Products</h4>
+<div align="center">
+  <img src="./demo/5.jpg" width="100%">
+  <p><em>Delivery Options and Checkout</em></p>
+</div>
 
-Once you tap on a Category, you are offered with a GridView of Products for that Category.
+## Technical Stack
 
-Once you tap on that, you are taken to the ProductDetail screen.
+### Frontend
 
-You can see the product description in the form of a full screen Dialog.
+- Flutter SDK for cross-platform development
+- Custom UI components with Material Design principles
+- Custom Painters for wave pattern backgrounds
+- Responsive layouts with GridView and ListView
 
-You are given an option to add the product to Cart or Buy Now.
+### State Management
 
-<p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/3.jpg" width="100%"></p>
+- BLoC pattern using flutter_bloc
+- Clean architecture with separation into presentation, logic, and data layers
 
-<br>
+### Backend & Services
 
-<h4>Cart</h4>
+- Firebase Authentication for user management
+- Cloud Firestore for database storage
+- Hive for local storage of user profiles
 
-When you go to the Cart, you can see a List of your CartItems.
+### Key Dependencies
 
-When you tap to proceed, you are asked to enter your address.
-
-When you tap proceed again, you are given an option for instant or scheduled delivery. You can select a date using CupertinoDatePicker.
-
-When you tap proceed again, you are taken to the Checkout page where you can tap Confirm Order to place the order.
-
-<p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/4.jpg" width="100%"></p>
-<p align="center"><img src="https://github.com/yesahmedyes/tameer-app/blob/main/demo/5.jpg" width="100%"></p>
-
-<br>
-
-<h4>Some other features</h4>
-
-Bloc is used for State management
-
-The app is separated into 3 layers: Presentation, Logic and Data
-
-Flutter Toast is implmeted to give user feedback on action such as Adding to Cart or Placing an Order.
-
-Hive is used to store profile details locally.
-
-Reorder items is implemented so that user can place the same order without having to add address and other details again.
-
-Image Caching is used so that the same images don't have to be downloaded again.
-
-Different colors are used for various Order Statuses, along with Order Tracking.
+- firebase_core, firebase_auth, cloud_firestore - Backend services
+- flutter_bloc, equatable - State management
+- hive, hive_flutter - Local data persistence
+- cached_network_image - Efficient image loading and caching
+- google_maps_flutter - Location services integration
+- fluttertoast - User feedback notifications
+- expandable - Collapsible UI components
